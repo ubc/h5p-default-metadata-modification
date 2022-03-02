@@ -10,7 +10,7 @@ module.exports = function( env, argv ) {
   return {
     devtool: isDev ? 'source-map' : false,
     entry: {
-      'h5p-new': './app/h5p-new.js'
+      'h5p-new': './assets/src/js/h5p-new.js'
     },
     output: {
       path: path.join( __dirname, 'assets/dist/js' ),
